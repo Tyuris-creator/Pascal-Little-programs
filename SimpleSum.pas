@@ -4,7 +4,7 @@ var
 begin
     sum:= 0;
     count := 0;
-    while not eof do
+    while not SeekEof do
     begin
 	read(n);
 	sum := sum + n;
